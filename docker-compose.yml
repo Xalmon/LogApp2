@@ -31,10 +31,29 @@ services:
     volumes:
       - ./rabbitmq-data:/var/lib/rabbitmq
 
+  sonarqube:
+    image: sonarqube:latest
+    ports:
+      - "9000:9000"
+    environment:
+      SONARQUBE_JDBC_URL: jdbc:postgresql://sonarqube-db:5432/sonar
+      SONARQUBE_JDBC_USERNAME: sonarqube
+      SONARQUBE_JDBC_PASSWORD: sonarqube
+      SONARQUBE_JDBC_DRIVER: org.postgresql.Driver
+    networks:
+      - local
+
+  sonarqube-db:
+    image: postgres:alpine
+    environment:
+      POSTGRES_USER: sonarqube
+      POSTGRES_PASSWORD: sonarqube
+    networks:
+      - local
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+
 networks:
   local:
     name: local
-    driver: bridge
-  rabbitmq:
-    name: rabbitmq
     driver: bridge
