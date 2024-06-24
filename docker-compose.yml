@@ -39,7 +39,6 @@ services:
       SONARQUBE_JDBC_URL: jdbc:postgresql://sonarqube-db:5432/sonar
       SONARQUBE_JDBC_USERNAME: sonarqube
       SONARQUBE_JDBC_PASSWORD: sonarqube
-      SONARQUBE_JDBC_DRIVER: org.postgresql.Driver
     networks:
       - local
 
@@ -48,6 +47,7 @@ services:
     environment:
       POSTGRES_USER: sonarqube
       POSTGRES_PASSWORD: sonarqube
+      POSTGRES_DB: sonar
     networks:
       - local
     volumes:
@@ -57,3 +57,4 @@ networks:
   local:
     name: local
     driver: bridge
+
