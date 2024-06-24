@@ -1,1 +1,8 @@
+com/example/LogApp2/dtos/response/RegisterResponse.class
+com/example/LogApp2/dtos/request/RegisterRequest.class
+com/example/LogApp2/controllers/LogController.class
+com/example/LogApp2/model/Log.class
+com/example/LogApp2/repository/LogRepository.class
+com/example/LogApp2/service/LogService.class
+com/example/LogApp2/service/LogServiceImpl.class
 com/example/LogApp2/LogApp2Application.class

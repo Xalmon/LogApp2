@@ -1,1 +1,8 @@
-/home/solomon/Downloads/LogApp2/src/main/java/com.example.LogApp2/LogApp2Application.java
+/home/solomon/Downloads/LogApp2/src/main/java/com/example/LogApp2/service/LogService.java
+/home/solomon/Downloads/LogApp2/src/main/java/com/example/LogApp2/dtos/request/RegisterRequest.java
+/home/solomon/Downloads/LogApp2/src/main/java/com/example/LogApp2/model/Log.java
+/home/solomon/Downloads/LogApp2/src/main/java/com/example/LogApp2/repository/LogRepository.java
+/home/solomon/Downloads/LogApp2/src/main/java/com/example/LogApp2/service/LogServiceImpl.java
+/home/solomon/Downloads/LogApp2/src/main/java/com/example/LogApp2/controllers/LogController.java
+/home/solomon/Downloads/LogApp2/src/main/java/com/example/LogApp2/dtos/response/RegisterResponse.java
+/home/solomon/Downloads/LogApp2/src/main/java/com/example/LogApp2/LogApp2Application.java
