@@ -1,6 +1,4 @@
 
-i
-9src/main/java/com.example.LogApp2/LogApp2Application.java,b/f/bf73085bd72d97dcffdc6998f973e11f3900bf59
 ;
 LogApp2.iml,0/7/07ff14771757d5489aaa1114e39573cb8af90efa
 :
@@ -12,8 +10,6 @@ A
 secret.properties,d/3/d393f222b63054046575a7d09d2aab11ef67fd79
 p
 @src/main/java/com/example/LogApp2/controllers/LogController.java,e/2/e2a4aa0fbc685dc35e7d97c80e954e4bc3534153
-`
-0src/main/java/com/example/LogApp2/model/log.java,f/f/ff6a909d889f69536857fc16a0281fc92caa4def
 `
 0src/main/java/com/example/LogApp2/model/Log.java,c/1/c1f57eb953d26dc5526731124eebb3dcc3bdb7dc
 o
@@ -28,3 +24,5 @@ u
 Esrc/main/java/com/example/LogApp2/dtos/response/RegisterResponse.java,8/e/8e64c7884e2502e89e900e4fa9caeabb08cb749f
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+i
+9src/main/java/com/example/LogApp2/LogApp2Application.java,3/7/37f987f5c5357c8db185c7827fd40786db61438c
